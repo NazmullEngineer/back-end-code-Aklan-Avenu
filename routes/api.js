@@ -36,13 +36,6 @@ router.post('/save', (req, res) => {
 });
 
 
-router.get('/name', (req, res) => {
-    const data =  {
-        username: 'peterson',
-        age: 5
-    };
-    res.json(data);
-});
 
 
 
